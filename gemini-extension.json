@@ -1,0 +1,39 @@
+{
+  "name": "memoriant-test-coverage-skill",
+  "version": "1.0.0",
+  "description": "Semantic test coverage analysis for Python projects — identifies untested functions via AST inspection and generates pytest skeleton files.",
+  "author": "Nathan Maine",
+  "repository": "https://github.com/NathanMaine/memoriant-test-coverage-skill",
+  "license": "MIT",
+  "gemini": {
+    "cli_version": ">=0.1.0"
+  },
+  "skills": [
+    {
+      "name": "semantic-test-coverage",
+      "description": "Scan a Python project for coverage gaps and generate pytest skeletons for every untested public function.",
+      "file": "./skills/semantic-test-coverage/SKILL.md",
+      "triggers": [
+        "find missing tests",
+        "generate test stubs",
+        "test coverage gaps",
+        "write pytest skeletons",
+        "what am I missing in tests",
+        "semantic test coverage"
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "name": "test-coverage-agent",
+      "description": "Autonomous agent that audits Python projects and generates pytest skeleton files for every uncovered function.",
+      "file": "./agents/test-coverage-agent.md",
+      "model": "gemini-2.0-flash"
+    }
+  ],
+  "install": {
+    "claude_code": "claude mcp add memoriant-test-coverage-skill",
+    "codex": "codex install NathanMaine/memoriant-test-coverage-skill",
+    "gemini": "gemini extension install NathanMaine/memoriant-test-coverage-skill"
+  }
+}

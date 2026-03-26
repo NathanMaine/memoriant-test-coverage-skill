@@ -1,0 +1,23 @@
+{
+  "name": "memoriant-test-coverage-skill",
+  "version": "1.0.0",
+  "description": "Semantic test coverage analysis for Claude Code — scans Python projects via AST inspection, identifies untested functions, and generates pytest skeleton files to close coverage gaps.",
+  "author": {
+    "name": "Nathan Maine",
+    "url": "https://github.com/NathanMaine"
+  },
+  "repository": "https://github.com/NathanMaine/memoriant-test-coverage-skill",
+  "license": "MIT",
+  "keywords": [
+    "testing",
+    "coverage",
+    "pytest",
+    "ast",
+    "python",
+    "memoriant",
+    "claude-code",
+    "skill"
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/"
+}
