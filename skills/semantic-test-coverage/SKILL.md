@@ -1,8 +1,6 @@
 ---
 name: semantic-test-coverage
 description: Analyze a Python project for untested functions using AST inspection and generate pytest skeleton files for every coverage gap found.
-version: 1.0.0
-tags: [testing, coverage, python, pytest, ast]
 ---
 
 # Semantic Test Coverage Skill
